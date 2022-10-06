@@ -224,12 +224,5 @@ public class MyList<T> implements List<T>{
         return null;
     }
 
-    public void Lexa() {
-        System.out.println("первая нода = " + Arrays.toString(first.values));
-        System.out.println("Вторая нода = " + Arrays.toString(first.next.values));
-        System.out.println("Третья нода = " + Arrays.toString(first.next.next.values));
-        System.out.println("Третья нода = " + Arrays.toString(first.next.next.next.values));
-//        System.out.println("Третья нода = " + Arrays.toString(first.next.next.next.next.values));
-    }
 
 }
